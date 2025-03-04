@@ -1,0 +1,402 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Inputs">
+      <UniqueIdentifier>{98d4b362-aff1-4314-ad34-918fcd2344ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes">
+      <UniqueIdentifier>{ca2a1cf4-e589-42a6-bf62-6c765dab3606}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{70ecf47d-2e45-4b6a-8e05-3bfe1411ea79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mathematics">
+      <UniqueIdentifier>{bd00fac0-3847-4f4e-9852-abe75f92eaee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Transforms">
+      <UniqueIdentifier>{4223b6a5-8e2f-4d99-a466-ef1e566512a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Systems">
+      <UniqueIdentifier>{811ed143-6cbb-4d1d-ab04-08f66037c1fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Components">
+      <UniqueIdentifier>{91c8bf7d-0ae9-4874-a75f-39fa0bfc84e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Materials">
+      <UniqueIdentifier>{0b7b35d6-70af-4d68-86a5-7d0f38293d3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScenesImpl">
+      <UniqueIdentifier>{c853bef2-a589-4209-8479-d8d7e8c2717c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities">
+      <UniqueIdentifier>{9ddf1b3c-416a-4a28-a0e3-88b83eb17311}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics">
+      <UniqueIdentifier>{b14ccabf-c626-49f7-9421-13bba9ef8918}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics\Components">
+      <UniqueIdentifier>{8f48e823-f5ba-45e7-82c2-2f7a4a38b4a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics\Systems">
+      <UniqueIdentifier>{1609f91a-f87a-49eb-91d1-f0a84830d480}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Gamepad.cpp">
+      <Filter>Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>Inputs</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneSystem.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Shader.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="SysCameraFreemode.cpp">
+      <Filter>Graphics\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Bitmap.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture2D.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture2DArray.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="SysTransformCalculator.cpp">
+      <Filter>Transforms</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneBasic.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureCubeArray.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureCube.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneGraphicsTests.cpp">
+      <Filter>ScenesImpl</Filter>
+    </ClCompile>
+    <ClCompile Include="Framebuffer.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureStencilDepth.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderSource.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="SysRenderingPipeline.cpp">
+      <Filter>Graphics\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Graphics\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="MaterialPbr.cpp">
+      <Filter>Graphics\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="SysRenderingMeshRenderers.cpp">
+      <Filter>Graphics\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="SysRenderingSkybox.cpp">
+      <Filter>Graphics\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="SysRenderingLighting.cpp">
+      <Filter>Graphics\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="SysRenderingFog.cpp">
+      <Filter>Graphics\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityComponent.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityRegistry.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityId.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneEnginesCheckers.cpp">
+      <Filter>ScenesImpl</Filter>
+    </ClCompile>
+    <ClCompile Include="SysRotateObjects.cpp">
+      <Filter>Physics\Systems</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Gamepad.h">
+      <Filter>Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>Inputs</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneSystem.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneSystemListener.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="float2.h">
+      <Filter>Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="float3.h">
+      <Filter>Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="float4.h">
+      <Filter>Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="math.h">
+      <Filter>Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="quaternion.h">
+      <Filter>Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="quaternionDual.h">
+      <Filter>Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="tiny_obj_loader.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="float4x4.h">
+      <Filter>Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="CmpParent.h">
+      <Filter>Transforms</Filter>
+    </ClInclude>
+    <ClInclude Include="CmpPosition.h">
+      <Filter>Transforms</Filter>
+    </ClInclude>
+    <ClInclude Include="CmpRotation.h">
+      <Filter>Transforms</Filter>
+    </ClInclude>
+    <ClInclude Include="CmpTransformLocalToWorld.h">
+      <Filter>Transforms</Filter>
+    </ClInclude>
+    <ClInclude Include="SysCameraFreemode.h">
+      <Filter>Graphics\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="CmpLightPoint.h">
+      <Filter>Graphics\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="CmpLightAmbient.h">
+      <Filter>Graphics\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Bitmap.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture2D.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture2DArray.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Color32.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="SysTransformCalculator.h">
+      <Filter>Transforms</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformComponents.h">
+      <Filter>Transforms</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneBasic.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="CmpScale.h">
+      <Filter>Transforms</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureCubeArray.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureCube.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneGraphicsTests.h">
+      <Filter>ScenesImpl</Filter>
+    </ClInclude>
+    <ClInclude Include="Framebuffer.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureStencilDepth.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderSource.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="SysRenderingPipeline.h">
+      <Filter>Graphics\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="CmpCamera.h">
+      <Filter>Graphics\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="CmpMeshRenderer.h">
+      <Filter>Graphics\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Graphics\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialPbr.h">
+      <Filter>Graphics\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="SysRenderingMeshRenderers.h">
+      <Filter>Graphics\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="CmpCameraFreecam.h">
+      <Filter>Graphics\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="SysRenderingSkybox.h">
+      <Filter>Graphics\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="SysRenderingLighting.h">
+      <Filter>Graphics\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="CmpLightDirectional.h">
+      <Filter>Graphics\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="int2.h">
+      <Filter>Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="int3.h">
+      <Filter>Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="int4.h">
+      <Filter>Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="noise.h">
+      <Filter>Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="SysRenderingFog.h">
+      <Filter>Graphics\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="frustumPlanes.h">
+      <Filter>Mathematics</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityComponent.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityRegistry.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityId.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneEnginesCheckers.h">
+      <Filter>ScenesImpl</Filter>
+    </ClInclude>
+    <ClInclude Include="CmpRotationVelocity.h">
+      <Filter>Physics\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="SysRotateObjects.h">
+      <Filter>Physics\Systems</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\textures\earth\albedo.png" />
+    <Image Include="Assets\textures\earth\clouds.png" />
+    <Image Include="Assets\textures\earth\emission.png" />
+    <Image Include="Assets\textures\earth\ground.jpg" />
+    <Image Include="Assets\textures\earth\metalness.png" />
+    <Image Include="Assets\textures\earth\roughness.png" />
+    <Image Include="Assets\textures\evil_eye\albedo.png" />
+    <Image Include="Assets\textures\mars\albedo.jpg" />
+    <Image Include="Assets\textures\megascan_forest\oeecI0_8K_Albedo.png" />
+    <Image Include="Assets\textures\megascan_forest\oeecI0_8K_AO.png" />
+    <Image Include="Assets\textures\megascan_forest\oeecI0_8K_Displacement.png" />
+    <Image Include="Assets\textures\megascan_forest\oeecI0_8K_Normal.png" />
+    <Image Include="Assets\textures\megascan_forest\oeecI0_8K_Roughness.png" />
+    <Image Include="Assets\textures\megascan_forest\pftlE20_8K_Albedo.png" />
+    <Image Include="Assets\textures\megascan_forest\pftlE20_8K_AO.png" />
+    <Image Include="Assets\textures\megascan_forest\pftlE20_8K_Displacement.png" />
+    <Image Include="Assets\textures\megascan_forest\pftlE20_8K_Normal.png" />
+    <Image Include="Assets\textures\megascan_forest\pftlE20_8K_Roughness.png" />
+    <Image Include="Assets\textures\megascan_forest\pftlS0_8K_Albedo.png" />
+    <Image Include="Assets\textures\megascan_forest\pftlS0_8K_AO.png" />
+    <Image Include="Assets\textures\megascan_forest\pftlS0_8K_Displacement.png" />
+    <Image Include="Assets\textures\megascan_forest\pftlS0_8K_Normal.png" />
+    <Image Include="Assets\textures\megascan_forest\pftlS0_8K_Roughness.png" />
+    <Image Include="Assets\textures\moon\albedo.jpg" />
+    <Image Include="Assets\textures\skull\albedo.png" />
+    <Image Include="Assets\textures\starsSkyBox\negx.png" />
+    <Image Include="Assets\textures\starsSkyBox\negy.png" />
+    <Image Include="Assets\textures\starsSkyBox\negz.png" />
+    <Image Include="Assets\textures\starsSkyBox\posx.png" />
+    <Image Include="Assets\textures\starsSkyBox\posy.png" />
+    <Image Include="Assets\textures\starsSkyBox\posz.png" />
+    <Image Include="Assets\textures\torontoSkyBox\negx.jpg" />
+    <Image Include="Assets\textures\torontoSkyBox\negy.jpg" />
+    <Image Include="Assets\textures\torontoSkyBox\negz.jpg" />
+    <Image Include="Assets\textures\torontoSkyBox\posx.jpg" />
+    <Image Include="Assets\textures\torontoSkyBox\posy.jpg" />
+    <Image Include="Assets\textures\torontoSkyBox\posz.jpg" />
+    <Image Include="Assets\textures\victoria\T_Brick_Cut_Stone_D.png" />
+    <Image Include="Assets\textures\victoria\T_Brick_Cut_Stone_N.png" />
+    <Image Include="Assets\textures\victoria\T_CobbleStone_Pebble_D.png" />
+    <Image Include="Assets\textures\victoria\T_CobbleStone_Pebble_M.png" />
+    <Image Include="Assets\textures\victoria\T_CobbleStone_Pebble_N.png" />
+    <Image Include="Assets\textures\victoria\T_CobbleStone_Rough_D.png" />
+    <Image Include="Assets\textures\victoria\T_CobbleStone_Rough_N.png" />
+    <Image Include="Assets\textures\victoria\T_CobbleStone_Rough_N_02.png" />
+    <Image Include="Assets\textures\victoria\T_CobbleStone_Smooth_D.png" />
+    <Image Include="Assets\textures\victoria\T_Concrete_Panels_D.png" />
+    <Image Include="Assets\textures\victoria\T_Concrete_Panels_N.png" />
+    <Image Include="Assets\textures\victoria\T_Ground_Grass_D.png" />
+    <Image Include="Assets\textures\victoria\T_Ground_Gravel_D.png" />
+    <Image Include="Assets\textures\victoria\T_Ground_Gravel_N.png" />
+    <Image Include="Assets\textures\victoria\T_Ground_Moss_N.png" />
+    <Image Include="Assets\textures\victoria\T_Metal_Steel_D.png" />
+    <Image Include="Assets\textures\victoria\T_Metal_Steel_N.png" />
+    <Image Include="Assets\textures\victoria\T_Rock_Basalt_D.png" />
+    <Image Include="Assets\textures\victoria\T_Rock_Basalt_N.png" />
+    <Image Include="Assets\textures\victoria\T_Rock_Smooth_Granite_D.png" />
+    <Image Include="Assets\textures\black.png" />
+    <Image Include="Assets\textures\flat.png" />
+    <Image Include="Assets\textures\white.png" />
+  </ItemGroup>
+</Project>
